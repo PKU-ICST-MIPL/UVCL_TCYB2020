@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train.py --data_path /media/zhuoyunkan/unsupervised2019/data/ --data_name f30k_precomp --vocab_path /media/zhuoyunkan/unsupervised2019/data/vocab/ --logger_name ckpt-flickr/ --model_name ckpt-flickr/ --max_violation --bi_gru --lambda_softmax=9 --num_epochs=30 --lr_update=15 --learning_rate=.0005 --log_step=100 --batch_size=128
